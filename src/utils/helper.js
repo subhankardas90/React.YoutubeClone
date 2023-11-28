@@ -22,8 +22,6 @@ var nameList = [
     'Legacy','Sharp','Dead','Mew','Chuckle','Bubba','Bubble','Sandwich','Smasher','Extreme','Multi','Universe','Ultimate','Death','Ready','Monkey','Elevator','Wrench','Grease','Head','Theme','Grand','Cool','Kid','Boy','Girl','Vortex','Paradox'
 ];
 
-var finalName = "";
-
 export function generateRandomName(){
     return nameList[Math.floor(Math.random()*nameList.length)];
 }
